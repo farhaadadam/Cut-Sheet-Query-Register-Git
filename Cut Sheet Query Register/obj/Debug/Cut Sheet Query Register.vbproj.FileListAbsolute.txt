@@ -17,3 +17,7 @@ E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\
 E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.exe
 E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.xml
 E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.pdb
+E:\Maby Development\Cut Sheet Query Register\Cut-Sheet-Query-Register-Git\Cut Sheet Query Register\bin\Debug\Cut Sheet Query Register.exe.config
+E:\Maby Development\Cut Sheet Query Register\Cut-Sheet-Query-Register-Git\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.exe
+E:\Maby Development\Cut Sheet Query Register\Cut-Sheet-Query-Register-Git\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.xml
+E:\Maby Development\Cut Sheet Query Register\Cut-Sheet-Query-Register-Git\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.pdb
