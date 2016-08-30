@@ -1,0 +1,19 @@
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\Cut Sheet Query Register.exe.config
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\Cut Sheet Query Register.exe
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\Cut Sheet Query Register.pdb
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\Cut Sheet Query Register.xml
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\EntityFramework.dll
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\EntityFramework.SqlServer.dll
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\System.Data.SQLite.dll
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\System.Data.SQLite.EF6.dll
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\System.Data.SQLite.Linq.dll
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\EntityFramework.xml
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\EntityFramework.SqlServer.xml
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\bin\Debug\System.Data.SQLite.xml
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.vbprojResolveAssemblyReference.cache
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\Cut_Sheet_Query_Register.Form_QueryReg.resources
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\Cut_Sheet_Query_Register.Resources.resources
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.vbproj.GenerateResource.Cache
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.exe
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.xml
+E:\Maby Development\Cut Sheet Query Register\Cut Sheet Query Register\obj\Debug\Cut Sheet Query Register.pdb
