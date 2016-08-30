@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Cut Sheet Query Register.exe" version="1.0.0.0" publicKeyToken="6d2e71e9ff6db41a" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Cut Sheet Query Register" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Cut Sheet Query Register.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Cut Sheet Query Register.exe" size="50600">
+      <assemblyIdentity name="Cut Sheet Query Register" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>HHb5vukCEaTRmyeZIg93fPEpZvpgR5faM8Q3PU8koVA=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.dll" size="5062304">
+      <assemblyIdentity name="EntityFramework" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>ME/k2DGnnEXXRv8PbQPIB/oznXx46EIYOYjb9nQ2US8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="EntityFramework.SqlServer.dll" size="580768">
+      <assemblyIdentity name="EntityFramework.SqlServer" version="6.0.0.0" publicKeyToken="B77A5C561934E089" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>iU2DBXuEJ4l5e2Up1a2QeNBvmdWHbhB91cwMpi/p8Nc=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.dll" size="309760">
+      <assemblyIdentity name="System.Data.SQLite" version="1.0.102.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>5jtNlKctPUAZWbbfK9o+Q0s2SrF9/OI0cwYEpIvyD0g=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.EF6.dll" size="186368">
+      <assemblyIdentity name="System.Data.SQLite.EF6" version="1.0.102.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>BS8Su4DjYYdGvZdRfXPE0iwdG+fV4/OSQPtsVWGHf0U=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="System.Data.SQLite.Linq.dll" size="186368">
+      <assemblyIdentity name="System.Data.SQLite.Linq" version="1.0.102.0" publicKeyToken="DB937BC2D44FF139" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>AKIDvXW0N02R1+gxx8LMwOXApaBBQgM1W9m7gE9RTgI=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Cut Sheet Query Register.exe.config" size="1533">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KFheKEVbZAl6EQTCuExCSwNTYVsI9ba/tuzlczxl57A=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=MGC\FarhaadA" issuerKeyHash="0e2ed92cc238803af96f1b80cd9162604232c1d8" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>xx2GKMyTDgVjQWwydJXvkx2hmBr3HV23ujXzsMULcE0=</DigestValue></Reference></SignedInfo><SignatureValue>OXxBGAAQJOtvBuk9NWkxMxtik6RYCpwgavGKhQdTq3DKPYMVrMMVbqtB9O+lUPOiQsMYfuUso6aoRNhZApFD8EKWSXxjEZZzcUFKXZhysxV0rOJ45gVUPu7p9bQivDRyvFXWXcoMy4ALGaITrOOcBgMMh1g1rk16PY+WyoicgbA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>out9JlTiashVrn1+OIJmk/0qVk4r/rJmvUD7phnveR7sDKqUhQvQoWfOW5HLOFbqrLaCwBXwVcWtIWpRF5xlB6qI5kxO7yltklo5tWMy2o+qmiyNd56Ez5Vrn+hsz+d+3iMvjiuEFvmX0Bx6bxfetAFml6fC3B3TSLiPiX9P0y0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="4d700bc5b0f335bab75d1df71a98a11d93ef9574326c4163050e93cc28861dc7" Description="" Url=""><as:assemblyIdentity name="Cut Sheet Query Register.exe" version="1.0.0.0" publicKeyToken="6d2e71e9ff6db41a" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=MGC\FarhaadA</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>a99wo9rhNLxy/CV6EKlPpzmpouz+bY0hcSbq8rpYm+A=</DigestValue></Reference></SignedInfo><SignatureValue>UMf5tuv2ontJNakpISMdQPJuL5XwON5qfgMxBYCGyycni5Hwo4igHt6nC3ruu7SorZC4qJoF+s8izQdewKSd96ubAVZH1VU0L/mTDvGJsjsJlt3Llrk2JIeL1gTwXbLMeN4ICqH7nT6zUyXt62VHxd9elVEziwVthFZvPMNLPZA=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>out9JlTiashVrn1+OIJmk/0qVk4r/rJmvUD7phnveR7sDKqUhQvQoWfOW5HLOFbqrLaCwBXwVcWtIWpRF5xlB6qI5kxO7yltklo5tWMy2o+qmiyNd56Ez5Vrn+hsz+d+3iMvjiuEFvmX0Bx6bxfetAFml6fC3B3TSLiPiX9P0y0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIByTCCATKgAwIBAgIQZv1q7mec+bRFGu7xxprMujANBgkqhkiG9w0BAQsFADAjMSEwHwYDVQQDHhgATQBHAEMAXABGAGEAcgBoAGEAYQBkAEEwHhcNMTYwODMwMTEzMzU2WhcNMTcwODMwMTczMzU2WjAjMSEwHwYDVQQDHhgATQBHAEMAXABGAGEAcgBoAGEAYQBkAEEwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKLrfSZU4mrIVa59fjiCZpP9KlZOK/6yZr1A+6YZ73ke7AyqlIUL0KFnzluRyzhW6qy2gsAV8FXFrSFqURecZQeqiOZMTu8pbZJaObVjMtqPqposjXeehM+Va5/obM/nft4jL44rhBb5l9Acem8X3rQBZpenwtwd00i4j4l/T9MtAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAThM3Hn/Gzd5FGQBkDVBim/HCf1NNr3LZgVJ4ocAydnUFrsYHE8yDJjrpcuOFLaVg4sL4soMbwuQaY3qHYGfne7kg/JXOquQumD32WpKLZL2/v3e8QOkuAZ0J08dC2Fgruqa/hiocnemNml3j2MRvcsypiit4nNTpH/2lnFTFFLE=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

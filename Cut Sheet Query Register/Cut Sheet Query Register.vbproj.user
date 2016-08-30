@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PublishUrlHistory>\\192.168.0.5\Maby_Share\farhaad\ORP\Cut Sheet Query Register\|\\192.168.0.5\Maby_Share\farhaad\ORP\|publish\</PublishUrlHistory>
+    <InstallUrlHistory>\\192.168.0.5\Maby_Share\farhaad\ORP\Cut Sheet Query Register\</InstallUrlHistory>
+    <SupportUrlHistory />
+    <UpdateUrlHistory />
+    <BootstrapperUrlHistory />
+    <ErrorReportUrlHistory />
+    <FallbackCulture>en-US</FallbackCulture>
+    <VerifyUploadedFiles>false</VerifyUploadedFiles>
+  </PropertyGroup>
+</Project>
