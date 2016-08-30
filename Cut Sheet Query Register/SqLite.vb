@@ -23,7 +23,7 @@ Module SqLite
         Dim oAdapter As New SQLiteDataAdapter(SQLcmd)
         SQLConn.ConnectionString = connection
         Try
-            SQLConn.Open()
+            SQLConn.Open() 'Opens SQL Connections
             SQLcmd.Connection = SQLConn
             SQLcmd.CommandText = "SELECT * FROM sqlite_master WHERE name ='MyTable' and type='table'"
             oAdapter.Fill(DT)
