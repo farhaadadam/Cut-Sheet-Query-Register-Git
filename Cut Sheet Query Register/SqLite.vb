@@ -30,7 +30,7 @@ Module SqLite
             SQLConn.Close()
             If DT.Rows.Count = 0 Then
                 SQLConn.Open()
-                SQLcmd.CommandText = "CREATE TABLE Register(Name NVARCHAR(50),CsNum NVARCHAR(50),Remarks NVARCHAR(200),SysCreateDate smalldatetime);"
+                SQLcmd.CommandText = "CREATE TABLE Register(id INTEGER PRIMARY KEY,Name NVARCHAR(50),CsNum NVARCHAR(50),Remarks NVARCHAR(200),Status NVARCHAR(1),SysCreateDate smalldatetime);"
                 SQLcmd.ExecuteNonQuery()
                 SQLConn.Close()
 
@@ -52,23 +52,43 @@ Module SqLite
     End Function
 
     'Insert data into table
-    Public Sub InsertData()
+    Public Sub InsertData(name As String, CsNum As String, Comments As String)
         Dim connection As String = "Data Source=vault.db;Version=3"
         Dim SQLConn As New SQLiteConnection
         Dim SQLcmd As New SQLiteCommand
         SQLConn.ConnectionString = connection
-        Dim cmd As New SQLiteCommand("INSERT INTO Register VALUES (@Name,@CsNum,@Remarks,@SysCreateDate)", SQLConn)
+        Dim cmd As New SQLiteCommand("INSERT INTO Register VALUES (NULL,@Name,@CsNum,@Remarks,@Status,@SysCreateDate)", SQLConn)
 
         SQLConn.Open()
-        cmd.Parameters.AddWithValue("@Name", "Test")
-        cmd.Parameters.AddWithValue("@CsNum", "Test")
+        'cmd.Parameters.AddWithValue("@id", "NULL")
+        cmd.Parameters.AddWithValue("@Name", name)
+        cmd.Parameters.AddWithValue("@CsNum", CsNum)
+        If Comments = "" Then
+            Comments = "No remarks..."
+        End If
+        cmd.Parameters.AddWithValue("@Remarks", Comments)
+        cmd.Parameters.AddWithValue("@Status", "O")
         cmd.Parameters.AddWithValue("@SysCreateDate", Date.Now)
+        cmd.ExecuteNonQuery()
+        SQLConn.Close()
+    End Sub
+    'Update Table
+    Public Sub UpdateData(id As String)
+        Dim connection As String = "Data Source=vault.db;Version=3"
+        Dim SQLConn As New SQLiteConnection
+        Dim SQLcmd As New SQLiteCommand
+        SQLConn.ConnectionString = connection
+        SQLConn.Open()
+        Dim cmd As New SQLiteCommand("Update Register SET Status = 'C' where CsNum = " & id & "", SQLConn)
+
+
+        '  cmd.Parameters.AddWithValue("@id", id)
         cmd.ExecuteNonQuery()
         SQLConn.Close()
     End Sub
 
     'Read data from db
-    Private Sub ReadTable()
+    Public Function ReadTable() As DataTable
         Dim connection As String = "Data Source=vault.db;Version=3"
         Dim SQLConn As New SQLiteConnection
         Dim SQLcmd As New SQLiteCommand
@@ -78,11 +98,12 @@ Module SqLite
         SQLConn.Open()
 
         SQLcmd.Connection = SQLConn
-        SQLcmd.CommandText = "Select * from MyTable"
+        SQLcmd.CommandText = "Select * from Register where Status = 'O'"
         oAdapter.Fill(DT)
         '   DataGridView1.DataSource = DT
         SQLConn.Close()
-    End Sub
+        Return DT
+    End Function
 
     'Clear table
     Private Sub ClearData()
